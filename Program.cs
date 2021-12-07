@@ -55,7 +55,7 @@ namespace Samlingsklasser
                     Övning_2();
                     break;
                 case "9":
-                    Övning_3
+                    Övning_3();
                     break;
                 case "10":
                     Övning_4();
@@ -290,7 +290,7 @@ namespace Samlingsklasser
             //Lista skapad med string
             List<string> Kortlek = new List<string>();
             //Skapar array med hjärter ruter klöver och spader
-            var typ = new string[] { "hjärter", "ruter", "klöver", "spader" };
+            var typ = new string[] { "hjärter ", "ruter ", "klöver ", "spader " };
             // För 1 till 4
             for (int i = 0; i < 4; i++)
             {
